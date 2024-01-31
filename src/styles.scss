@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&display=swap');
+
+
+body {
+  margin: 10px;
+  margin-top: 0;
+  font-family: "Heebo", sans-serif;
+}
+
+nav {
+  a {
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .menu-items {
+    span {
+      margin-top: 20px;
+    }
+    ul {
+      margin-top: 20px;
+    }
+    li {
+      width: max-content;
+      padding: 0px 20px;
+      font-size: 14px;
+    }
+  }
+}
